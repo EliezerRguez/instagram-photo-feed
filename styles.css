@@ -1,0 +1,17 @@
+body {background-color:#bdbdbd;
+margin: 0;padding: 0;font-family: Arial, Helvetica, sans-serif;}
+
+div {box-sizing: border-box;}
+
+header {background-color: white;padding: 10px;}
+
+header h1 {margin: 0;}
+
+.container {width: 600px;margin: auto;}
+
+.post {background-color: white; margin-top: 50px;}
+.post .post-header span {font-weight: bold;}
+.post .post-header div:first-child {display:inline-block;width: 85%;}
+.post .post-header div:last-child {display:inline-block;width: 15%;text-align: right;padding:10px;color:grey}
+.post h2, .post p {padding:10px;margin: 0;}    
+.post img {width: 600px;}
